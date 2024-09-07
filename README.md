@@ -14,15 +14,27 @@ Skema Koneksi
    
 ## WiFi Configuration:
 ESP8266 akan tersambung ke jaringan WiFi sesuai dengan pengaturan yang diinput oleh pengguna.
-Langkah-Langkah Instalasi
+Ubah SSID dan Password WiFi pada code <b><i>smartAC_Local_ESP8266_V1.ino.ino</i></b>
 
+# Langkah-Langkah Instalasi
 ## Persiapan Hardware:
 - Siapkan ESP8266 dan modul relay 1 channel.
 - Hubungkan pin sesuai dengan skema koneksi di atas.
 
 ## Persiapan Software:
-Unduh dan instal Arduino IDE.
-Instal library <b>ESP8266WiFi</b> dan <b>ESPAsyncWebServer</b> melalui Arduino Library Manager.
+- Unduh dan instal Arduino IDE. <a>https://downloads.arduino.cc/arduino-ide/arduino-ide_2.3.2_Windows_64bit.exe)</a>
+- Instal library <b>ESP8266WiFi</b> dan <b>ESPAsyncWebServer</b> melalui Arduino Library Manager.
 
 ## Upload Sketch ke ESP8266:
-Gunakan kode berikut untuk menghubungkan ESP8266 ke jaringan WiFi dan menampilkan alamat IP:
+Gunakan kode <b><i>smartAC_Local_ESP8266_V1.ino.ino</i></b>
+
+## Cek IP Address dari Serial Monitor:
+- Buka Serial Monitor pada Arduino IDE dengan BAUD Rate 9600.
+- Anda akan melihat pesan yang menunjukkan status koneksi WiFi dan alamat IP ESP8266.
+### Web Interface
+Setelah mengetahui IP Address dari ESP8266, masukkan alamat tersebut di browser untuk mengakses web interface dan mengontrol relay.
+
+## Troubleshooting
+- Jika ESP8266 tidak tersambung ke WiFi, pastikan SSID dan password WiFi sudah benar.
+Periksa koneksi kabel antara ESP8266 dan relay.
+
