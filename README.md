@@ -14,7 +14,7 @@ Skema Koneksi
    
 ## WiFi Configuration:
 ESP8266 akan tersambung ke jaringan WiFi sesuai dengan pengaturan yang diinput oleh pengguna.
-Ubah SSID dan Password WiFi pada code <b><i>smartAC_Local_ESP8266_V1.ino.ino</i></b>
+Ubah SSID dan Password WiFi pada code <b><i>smartAC_Local_ESP8266_V1.ino</i></b>
 
 # Langkah-Langkah Instalasi
 ## Persiapan Hardware:
