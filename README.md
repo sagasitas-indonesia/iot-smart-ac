@@ -13,7 +13,7 @@ Skema Koneksi
 3. GND (Relay) → GND (ESP8266)
 
 ## Skema Rangkaian
-(iot-smart-ac/Skema Rangkaian.jpg)
+!(iot-smart-ac/Skema Rangkaian.jpg)
    
 ## WiFi Configuration:
 ESP8266 akan tersambung ke jaringan WiFi sesuai dengan pengaturan yang diinput oleh pengguna.
