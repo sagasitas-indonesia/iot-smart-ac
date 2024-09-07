@@ -1,7 +1,6 @@
-<<<<<<< HEAD
 # IoT Smart AC Remote
 Saklar AC Berbasis Website
-=======
+
 # IoT Remote AC dengan Web Interface Menggunakan ESP8266
 Proyek ini bertujuan untuk merangkai sistem IoT yang memungkinkan pengguna mengontrol AC (Air Conditioner) secara remote melalui web interface. Sistem ini menggunakan modul ESP8266 yang terhubung dengan modul relay 1 channel untuk mengendalikan AC.
 
@@ -41,5 +40,3 @@ Setelah mengetahui IP Address dari ESP8266, masukkan alamat tersebut di browser 
 ## Troubleshooting
 - Jika ESP8266 tidak tersambung ke WiFi, pastikan SSID dan password WiFi sudah benar.
 Periksa koneksi kabel antara ESP8266 dan relay.
->>>>>>> 0f125ae54289e9c29ce8d02ac55888ddfdf1070d
-
