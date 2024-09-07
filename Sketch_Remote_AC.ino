@@ -8,8 +8,8 @@
 const char* ssid = "Sagasitas-WIFI";//type your ssid (nama WiFi)
 const char* password = "GustiPadaka2024";//type your password (password WiFi)
 
-IPAddress staticIP(192, 168, 8, 11); 
-IPAddress gateway(192, 168, 8, 1); 
+IPAddress staticIP(192, 168, 8, 11); // IP Addres stasit untuk arduino (sesuaikan dengan gateway)
+IPAddress gateway(192, 168, 8, 1); // Gateway atau IP Router
 IPAddress subnet(255, 255, 255, 0);
 
 int relPin = 2; //D4
@@ -38,11 +38,11 @@ void setup() {
         Serial.print(".");
     }
     Serial.println("");
-    Serial.println("WiFi connected");
+    Serial.println("WiFi terhubung");
 
     server.begin();
-    Serial.println("Server started");
-    Serial.print("Use this URL to connect: ");
+    Serial.println("Server started...");
+    Serial.print("Gunakan URL berikut untuk membuka panel : ");
     Serial.print("http://");
     Serial.print(WiFi.localIP());
     Serial.println("/");
