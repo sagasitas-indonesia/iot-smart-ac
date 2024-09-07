@@ -11,6 +11,9 @@ Skema Koneksi
 1. VCC (Relay) → 3V (ESP8266)
 2. IN1 (Relay) → D4 (ESP8266)
 3. GND (Relay) → GND (ESP8266)
+
+## Skema Rangkaian
+(iot-smart-ac/Skema Rangkaian.jpg)
    
 ## WiFi Configuration:
 ESP8266 akan tersambung ke jaringan WiFi sesuai dengan pengaturan yang diinput oleh pengguna.
