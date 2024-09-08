@@ -10,7 +10,7 @@ char ssid[] = "YourWiFiSSID";
 char pass[] = "YourWiFiPassword";
 
 // Pin untuk relay
-const int relayPin = D4;
+const int relayPin = D1;
 
 void setup() {
   // Inisialisasi pin relay
