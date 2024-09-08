@@ -49,7 +49,7 @@ Konfigurasi Sederhana untuk menghubungkan ESP8266 dengan jaringan WiFi yang ada.
 
 ## ESP8266 ke Relay 1 Channel:
 1. VCC (Relay) → 3V (ESP8266)
-2. IN1 (Relay) → D4 (ESP8266)
+2. IN1 (Relay) → D1 (ESP8266)
 3. GND (Relay) → GND (ESP8266)
 
 ## Skema Rangkaian
