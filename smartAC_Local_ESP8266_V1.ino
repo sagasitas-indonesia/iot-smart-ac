@@ -5,8 +5,8 @@
 #define relay_on HIGH
 #define relay_off LOW
 
-const char* ssid = "Sagasitas-WIFI";//type your ssid (nama WiFi)
-const char* password = "GustiPadaka2024";//type your password (password WiFi)
+const char* ssid = "YourWiFiSSID";//type your ssid (nama WiFi)
+const char* password = "YourWiFiPassword";//type your password (password WiFi)
 
 IPAddress staticIP(192, 168, 8, 11); // IP Addres stasit untuk arduino (sesuaikan dengan gateway)
 IPAddress gateway(192, 168, 8, 1); // Gateway atau IP Router
