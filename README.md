@@ -51,9 +51,6 @@ Konfigurasi Sederhana untuk menghubungkan ESP8266 dengan jaringan WiFi yang ada.
 1. VCC (Relay) → 3V (ESP8266)
 2. IN1 (Relay) → D1 (ESP8266)
 3. GND (Relay) → GND (ESP8266)
-
-## Skema Rangkaian
-![Skema](https://raw.githubusercontent.com/sagasitas-indonesia/iot-smart-ac/main/Skema%20Rangkaian.jpg)
    
 ## WiFi Configuration:
 ESP8266 akan tersambung ke jaringan WiFi sesuai dengan pengaturan yang diinput oleh pengguna.
