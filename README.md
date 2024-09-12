@@ -24,6 +24,7 @@ Ubah SSID dan Password WiFi pada code <b><i>smartAC_Local_ESP8266_V1.ino</i></b>
 - Hubungkan pin sesuai dengan skema koneksi di atas.
 
 ## Persiapan Software:
+- Install driver Arduino
 - Unduh dan instal Arduino IDE. <a>https://downloads.arduino.cc/arduino-ide/arduino-ide_2.3.2_Windows_64bit.exe</a>
 - Instal library <b>ESP8266WiFi</b> dan <b>ESPAsyncWebServer</b> melalui Arduino Library Manager.
 
