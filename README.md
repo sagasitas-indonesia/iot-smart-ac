@@ -105,3 +105,6 @@ Tambahkan Data Stream untuk Relay:
 - Pilih Datastream yang terhubung dengan Virtual Pin V1.
 ### Konfigurasi Tombol:
 Konfigurasikan tombol untuk mode Switch atau Push (sesuai kebutuhan).
+
+## Referensi :
+YouTube : <a>https://www.youtube.com/watch?v=M39fPIH6440</a>
